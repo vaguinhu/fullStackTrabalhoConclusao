@@ -1,0 +1,100 @@
+/*parte mobile*/
+@media(max-width: 760px) {
+
+    .secao-intro .intro-texto {
+        font-family: 'Pacifico', cursive;
+        font-size: 2rem;
+        font-weight: 700;
+        background-image: none;
+        margin: 20px;
+    }
+    
+    .correcao-intro {
+        justify-content: center align-items: initial;
+        text-align: left;
+        width: 50%;
+        height: 1041px;
+    }
+    .secao-intro .u-image-1 {
+        width: 325px;
+        height: 336px;
+        background-image: url(img/img-TCA/wsqd-min.jpg);
+        background-position: 50% 50%;
+        margin: -399px auto 0 -44px;
+    }
+    .secao-intro .u-image-2 {
+        width: 181px;
+        height: 172px;
+        background-image: url(img/img-TCA/salad_144627-39466.jpg);
+        background-position: 50% 50%;
+        margin: -144px auto 0px -56px;
+    }
+
+    .secao-intro .u-shape-1 {
+        width: 332px;
+        height: 338px;
+        margin: 72px 21px 29px 6px;
+    }
+
+    .secao-intro .u-group-1 {
+        width: 356px;
+        min-height: 638px;
+        margin: -93px 0px 13px -26px;
+    }
+}
+
+/*
+
+@media(max-width: 920px) {
+    .secao-intro .intro-texto {
+        font-family: 'Pacifico', cursive;
+        font-size: 5.5rem;
+        font-weight: 700;
+        background-image: none;
+        margin: -32px 53px;
+    }
+
+    .u-custom-font.u-text-font {
+        font-family: 'Open Sans', sans-serif !important;
+        margin: 58px 0;
+    }
+
+    .correcao-intro {
+        justify-content: center align-items: initial;
+        text-align: left;
+        width: 50%;
+        height: 1309px;
+    }
+    .secao-intro .u-image-1 {
+        width: 646px;
+        height: 646px;
+        background-image: url(img/img-TCA/wsqd-min.jpg);
+        background-position: 50% 50%;
+        margin: -748px auto 0 -58px;
+    }
+    .secao-intro .u-image-2 {
+        width: 283px;
+        height: 283px;
+        background-image: url(img/img-TCA/salad_144627-39466.jpg);
+        background-position: 50% 50%;
+        margin: -194px auto 0 -121px;
+    }
+    .secao-intro .u-shape-1 {
+        width: 643px;
+        height: 643px;
+        margin: 181px 102px 0 131px;
+    }
+
+    .secao-intro .u-group-1 {
+        width: 356px;
+        min-height: 638px;
+        margin: -93px 0px 13px -26px;
+    }
+
+    .secao-intro .u-group-1 {
+        width: 829px;
+        min-height: 638px;
+        margin: -93px 0px 13px -26px;
+    }
+}
+*/

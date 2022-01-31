@@ -1,0 +1,16 @@
+.carrosel-destaques .carousel-inner {
+width: 50%;
+text-align: center;
+margin: auto;
+margin-bottom: 30px;
+border-radius:3%;
+border-color: #8D0606;
+}
+
+.carrosel-destaques .carousel-control-next {
+    right: 25%;
+}
+
+.carrosel-destaques .carousel-control-prev {
+    left: 25%;
+}

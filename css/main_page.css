@@ -1,0 +1,147 @@
+html {
+  font-size: 1rem;
+}
+
+.fonte-jumbotron {
+  font-size: 1rem;
+}
+.cor-texto-jumbotron{
+  font-family: 'Pacifico', cursive;
+  color: #8D0606;
+
+}
+
+.fonte-titulo {
+  font-family: 'Pacifico', cursive;
+}
+
+.imagem-carrossel {
+  object-fit:cover; object-position: 0 80%;
+  height: 400px;
+}
+
+.card-imagem {
+  width: 18rem;
+  object-fit:cover;
+  object-position: 0 60%;
+}
+
+.card-imagem-top {
+  height:200px;
+  object-fit:cover;
+  object-position: 0 60%;
+}
+
+.thumb-redondo {
+  border-radius:50%; 
+  width:250px; 
+  height:250px; 
+  object-fit:cover; 
+  object-position: 0 60%; 
+}
+
+.icones {
+  font-size: 2rem;
+}
+
+.texto-cor-especial {
+  color: #8D0606;
+}
+
+.borda-cor-especial {
+  border-color: #8D0606;
+}
+
+.btn-cor-especial {
+  background-color: #8D0606;
+  color: white;
+}
+
+#cor-titulo {
+  color: #8D0606;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+.md-form.form-sm .prefix {
+  top: 0.35rem;
+  font-size: 1.5rem;
+}
+.md-form .prefix {
+  position: absolute;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+.md-form .prefix {
+  top: 0.25rem;
+  font-size: 1.75rem;
+}
+
+.img-card-receita{
+  height: 308px;
+    object-fit: cover;
+    object-position: 0 60%;
+}
+
+.pb-3, .py-3 {
+  border-radius: 1.5rem;
+}
+
+.mb-2, .my-2 {
+  margin-bottom: 1rem!important;
+}
+.modal-header {
+  color: white;
+}
+
+.modal-content {
+  background-color: #970d0dd9;
+}
+
+.receita-cor-texto p{
+  color: white;
+}
+
+.receita-cor-texto h6{
+  color: white;
+}
+.receita-cor-texto ul{
+  color: white;
+}
+
+.bg-secondary {
+  background-color: #8d0606bd!important;
+}
+.py-3 {
+  border-radius: 0.8rem;
+}
+
+.navbar{
+  border-radius: 0.1rem;
+}
+
+.bg-light {
+  background-color: #fffffffa!important;
+}
+
+.close {
+
+  color: #f8f9fa;
+
+}

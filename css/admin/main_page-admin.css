@@ -1,0 +1,5 @@
+.card-imagem {
+    width: 29rem;
+    object-fit: cover;
+    object-position: 0 60%;
+}
